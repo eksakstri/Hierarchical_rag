@@ -16,20 +16,20 @@ Returning structured JSON output
 # WorkFlow
 
 Input paragraphs 
-      ↓
+      →
 Tokenization
-      ↓
+      →
 Re-grouping to big similar meaning chunks
-      ↓
+      →
 Tree Structure
-      ↓
+      →
 Rule Injection (System Prompt Simulation)
-      ↓
+      →
 Transformer-based QA Model
-      ↓
+      →
 Confidence Filtering
-      ↓
+      →
 Rule-based Post Processing
-      ↓
+      →
 Structured Output (JSON)
 
